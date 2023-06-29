@@ -8,4 +8,8 @@ public class ConvidadoAction extends Action {
 	public String execute() {
 		return SUCCESS;
 	}
+	
+	public String incluir() {
+		return FORM;
+	}
 }

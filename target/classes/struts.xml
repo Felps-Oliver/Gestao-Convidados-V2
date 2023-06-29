@@ -10,10 +10,10 @@
     <package name="br.com.soc.sistema" extends="struts-default"
 		strict-method-invocation="false">
 
-		<action name="Convidado*"
+		<action name="*Convidado"
 			class="br.com.soc.sistema.action.ConvidadoAction" method="{1}">
 			<result name="success">/convidado/Convidados.jsp</result>
-			<result name="input">/convidado/Convidados.jsp</result>
+			<result name="form">/convidado/Convidados_i.jsp</result>
 			<result name="logout">/convidado/Convidados.jsp</result>
 		</action>
 	</package>
