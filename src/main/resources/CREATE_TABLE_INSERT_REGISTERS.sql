@@ -1,0 +1,1 @@
+CREATE TABLE convidados (rowid bigint auto_increment, nm_convidado VARCHAR(100), qnt_convidados int);
