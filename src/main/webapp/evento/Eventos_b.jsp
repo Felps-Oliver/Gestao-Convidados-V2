@@ -30,7 +30,7 @@
 						<td>${rowid}</td>
 						<td>${nome}</td>
 						<td>${data_evento}</td>
-						<td>${preco_ingresso}</td>
+						<td>R$ ${preco_ingresso}</td>
 					</tr>
 				</s:iterator>
 			</tbody>

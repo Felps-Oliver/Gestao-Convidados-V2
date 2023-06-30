@@ -31,6 +31,7 @@ public class EventoDAO extends DAO {
 				vo.setRowid(rs.getString("id"));
 				vo.setNome(rs.getString("nome"));
 				vo.setData_evento(sdf.format(rs.getDate("data")));
+				vo.setPreco_ingresso(rs.getFloat("valor"));
 				
 				eventos.add(vo);
 			}

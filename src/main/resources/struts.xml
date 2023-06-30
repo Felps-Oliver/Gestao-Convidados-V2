@@ -16,6 +16,12 @@
 			<result name="consult">/convidado/Convidados_b.jsp</result>
 			<result name="form">/convidado/Convidados_i.jsp</result>
 		</action>
+		
+		<action name="*Evento"
+			class="br.com.soc.sistema.action.EventoAction" method="{1}">
+			<result name="consult">/evento/Eventos_b.jsp</result>
+			<result name="form">/convidado/Convidados_i.jsp</result>
+		</action>
 	</package>
 
 </struts>

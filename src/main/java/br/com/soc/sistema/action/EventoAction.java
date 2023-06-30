@@ -14,12 +14,7 @@ public class EventoAction extends Action {
 	private EventoBusiness business = new EventoBusiness();
 	private EventoVo eventoVo = new EventoVo();
 
-	public String execute() {
-		return SUCCESS;
-	}
-	
 	public String consultar() {
-		
 		eventos.addAll(business.trazerTodosOsEventos());
 		
 		return CONSULTA;
