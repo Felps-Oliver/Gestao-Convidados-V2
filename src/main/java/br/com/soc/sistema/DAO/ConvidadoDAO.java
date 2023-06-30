@@ -12,7 +12,7 @@ import br.com.soc.sistema.vo.ConvidadoVo;
 
 public class ConvidadoDAO extends DAO {
 
-	public List<ConvidadoVo> findAllExames(){
+	public List<ConvidadoVo> findAllConvidados(){
 		StringBuilder query = new StringBuilder("SELECT rowid id, nm_convidado nome, "
 				+ "qnt_convidado quantidade FROM convidados");
 		try(
