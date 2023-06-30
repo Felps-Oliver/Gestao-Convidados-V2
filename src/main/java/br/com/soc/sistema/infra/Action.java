@@ -7,6 +7,7 @@ public class Action extends ActionSupport {
 	
 	/* Strings para serem usadas como Returns customizados nas Actions */
 	public static final String REDIRECT = "redirect";
+	public static final String CONSULTA = "consult";
 	public static final String FORM = "form";
 	
 }

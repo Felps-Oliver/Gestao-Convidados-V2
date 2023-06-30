@@ -9,6 +9,10 @@ public class ConvidadoAction extends Action {
 		return SUCCESS;
 	}
 	
+	public String consultar() {
+		return CONSULTA;
+	}
+	
 	public String incluir() {
 		return FORM;
 	}

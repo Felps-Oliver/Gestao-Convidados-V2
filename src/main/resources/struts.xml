@@ -12,9 +12,9 @@
 
 		<action name="*Convidado"
 			class="br.com.soc.sistema.action.ConvidadoAction" method="{1}">
-			<result name="success">/convidado/Convidados.jsp</result>
+			<result name="success">/convidado/Convidados_inicial.jsp</result>
+			<result name="consult">/convidado/Convidados_b.jsp</result>
 			<result name="form">/convidado/Convidados_i.jsp</result>
-			<result name="logout">/convidado/Convidados.jsp</result>
 		</action>
 	</package>
 
