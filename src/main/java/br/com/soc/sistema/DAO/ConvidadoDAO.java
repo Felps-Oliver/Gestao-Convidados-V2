@@ -14,7 +14,7 @@ public class ConvidadoDAO extends DAO {
 
 	public List<ConvidadoVo> findAllConvidados(){
 		StringBuilder query = new StringBuilder("SELECT rowid id, nm_convidado nome, "
-				+ "qnt_convidado quantidade FROM convidados");
+				+ "qnt_convidados quantidade FROM convidados");
 		try(
 			Connection con = getConexao();
 			PreparedStatement  ps = con.prepareStatement(query.toString());

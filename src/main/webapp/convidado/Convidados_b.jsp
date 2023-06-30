@@ -24,6 +24,7 @@
 			<tbody>
 				<s:iterator value="convidados" >
 					<tr>
+						
 						<!-- Campos do ConvidadoVo -->
 						<td>${rowid}</td>
 						<td>${nome}</td>
