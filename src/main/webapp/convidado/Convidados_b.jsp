@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -21,11 +22,14 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr>
-					<th scope="row">1</th>
-					<td>Mark</td>
-      				<td>Otto</td>
-    			</tr>
+				<s:iterator value="convidados" >
+					<tr>
+						<!-- Campos do ConvidadoVo -->
+						<td>${rowid}</td>
+						<td>${nome}</td>
+						<td>${qnt_convidados}</td>
+					</tr>
+				</s:iterator>
 			</tbody>
 		</table>
 	</div>
