@@ -7,6 +7,6 @@ CREATE TABLE evento (rowid bigint auto_increment, nm_evento VARCHAR(100), data_e
 
 --INSERTS iniciais
 INSERT INTO evento (nm_evento, data_evento, valor_ingresso) VALUES
-	('Rock in Rio', 2023-08-01, 99.99),
-	('The Greatest Show', 2023-11-15, 124.90),
-	('Street Suoar', 2024-01-07, 35.75);
+	('Rock in Rio', '2023-08-01', 99.99),
+	('The Greatest Show', '2023-11-15', 124.90),
+	('Street Suoar', '2024-01-07', 35.75);

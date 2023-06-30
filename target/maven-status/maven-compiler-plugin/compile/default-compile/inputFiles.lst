@@ -1,7 +1,11 @@
 C:\Users\felipe.oliveira\OneDrive - AGE LTDA\Área de Trabalho\DEV\Projects\gestao-convidados-v2\src\main\java\br\com\soc\sistema\infra\Action.java
+C:\Users\felipe.oliveira\OneDrive - AGE LTDA\Área de Trabalho\DEV\Projects\gestao-convidados-v2\src\main\java\br\com\soc\sistema\vo\EventoVo.java
 C:\Users\felipe.oliveira\OneDrive - AGE LTDA\Área de Trabalho\DEV\Projects\gestao-convidados-v2\src\main\java\br\com\soc\sistema\DAO\DAO.java
+C:\Users\felipe.oliveira\OneDrive - AGE LTDA\Área de Trabalho\DEV\Projects\gestao-convidados-v2\src\main\java\br\com\soc\sistema\DAO\EventoDAO.java
+C:\Users\felipe.oliveira\OneDrive - AGE LTDA\Área de Trabalho\DEV\Projects\gestao-convidados-v2\src\main\java\br\com\soc\sistema\business\EventoBusiness.java
 C:\Users\felipe.oliveira\OneDrive - AGE LTDA\Área de Trabalho\DEV\Projects\gestao-convidados-v2\src\main\java\br\com\soc\sistema\exception\TechnicalException.java
 C:\Users\felipe.oliveira\OneDrive - AGE LTDA\Área de Trabalho\DEV\Projects\gestao-convidados-v2\src\main\java\br\com\soc\sistema\vo\ConvidadoVo.java
 C:\Users\felipe.oliveira\OneDrive - AGE LTDA\Área de Trabalho\DEV\Projects\gestao-convidados-v2\src\main\java\br\com\soc\sistema\business\ConvidadoBusiness.java
+C:\Users\felipe.oliveira\OneDrive - AGE LTDA\Área de Trabalho\DEV\Projects\gestao-convidados-v2\src\main\java\br\com\soc\sistema\action\EventoAction.java
 C:\Users\felipe.oliveira\OneDrive - AGE LTDA\Área de Trabalho\DEV\Projects\gestao-convidados-v2\src\main\java\br\com\soc\sistema\action\ConvidadoAction.java
 C:\Users\felipe.oliveira\OneDrive - AGE LTDA\Área de Trabalho\DEV\Projects\gestao-convidados-v2\src\main\java\br\com\soc\sistema\DAO\ConvidadoDAO.java
