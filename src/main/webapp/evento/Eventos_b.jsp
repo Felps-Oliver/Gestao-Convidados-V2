@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Listagem Convidados</title>
+<title>Eventos</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -18,17 +18,19 @@
 				<tr>
 					<th scope="col">ID</th>
 					<th scope="col">Nome</th>
-					<th scope="col">Convidados</th>
+					<th scope="col">Data</th>
+					<th scope="col">Valor Ingresso</th>
 				</tr>
 			</thead>
 			<tbody>
-				<s:iterator value="convidados" >
+				<s:iterator value="eventos" >
 					<tr>
 						
-						<!-- Campos do ConvidadoVo -->
+						<!-- Atributos do EventoVo -->
 						<td>${rowid}</td>
 						<td>${nome}</td>
-						<td>${qnt_convidados}</td>
+						<td>${data_evento}</td>
+						<td>${preco_ingresso}</td>
 					</tr>
 				</s:iterator>
 			</tbody>
